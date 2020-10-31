@@ -86,10 +86,26 @@
                         <img src="assets/img/share.png" alt="" class="mr-2">
                         <img src="assets/img/heart.png" alt="">
                     </div>
-                    <button class="btn btn-vr d-flex">
+                    <button class="btn btn-vr d-flex" type="button" data-toggle="modal" data-target="#launchVR">
                         <img src="assets/img/vr-glasses.png" class="mr-2 my-1 ml-3">
                         <p class="my-1">Play VR</p>
                     </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="launchVR" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
+                        <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe class="videoContainer__video embed-responsive-item" width="1920" height="1080" src="https://www.youtube.com/embed/GbOqGYxIW4w" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
