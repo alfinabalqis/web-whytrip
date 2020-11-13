@@ -68,6 +68,7 @@ h3{
 .nav-item a:hover{
   color: #ff973f !important;
 }
+
 .navbar-collapse{
   margin-left: 13em !important;
 }
@@ -378,6 +379,7 @@ color: #333333;
 
   .navbar-brand img{
     margin-top: 1em !important;
+    padding-bottom: .5em ;
   }
 
   .navbar-light .navbar-nav .nav-link {
